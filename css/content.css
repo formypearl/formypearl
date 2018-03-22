@@ -1,0 +1,1315 @@
+
+#maincontent>div {
+    color: #34495E;
+}
+
+#emergency {
+    color: #fafafa !important;
+}
+
+.fb-post {
+    width: 100% !important;
+    overflow: hidden;
+    display: block;
+    margin-bottom: 1.5vh;
+}
+
+#institutions>div {
+    background: rgba(200,200,200, 0.4);
+}
+
+#festivals>div, #festive>div {
+    background: rgba(200,200,200, 0.4);
+    /*background: RGBA(255, 215, 0, 0.2);*/
+}
+
+#general>div {
+    background: rgba(200,200,200, 0.4);
+    /*background: RGBA(245, 245, 220, 1);*/
+}
+
+#artsnsports>div {
+    background: rgba(200,200,200, 0.4);
+
+    /*background: RGBA(50, 205, 50, 0.2);*/
+}
+
+#ours>div {
+    background: rgba(200,200,200, 0.4);
+
+    /*background: RGBA(95, 158, 160, 0.2);*/
+}
+#servicebroad {
+    background: rgba(200,200,200, 0.4);
+
+    /*background: RGBA(189, 183 , 107, 0.3);*/
+}
+.servicesub {
+    border-color: rgba(120,120,120, 1);
+    background: rgba(20,20,20, 0.25);
+}
+.panelcol:hover, .panelcol:active {
+    cursor: pointer;
+}
+.panelcol:hover .panelname, .panelcol:active .panelname{
+    background-color: #707070 ;
+    color: #fafafa;
+    text-overflow: ellipsis;
+}
+.servicesupersub{
+    color: #1c1c1c;
+}
+.servicesupersub:hover, .servicesupersub:active {
+    background-color: darkgreen;
+    color: #fafafa;
+}
+.servicelist {
+    background: rgba(20,20,20, 0.3);
+    border: none;
+    padding: 1% 0 1% 0;
+}
+.servicelistitem {
+
+}
+
+.admin {
+    background-color: rgba(220,220,220,0.3);
+    padding: 1% 1% 1% 1%;
+}
+
+
+
+@media (orientation: portrait) {
+
+    #content {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        background: #fcfcfc;  /* fallback for old browsers */
+    }
+
+    #maincontent {
+        /*background-color: #cccccc;*/
+        width: 100% !important;
+        padding: 1vw 1vw 1vw 1vw;
+    }
+    #maincontent>p {
+        display: none;
+    }
+
+    #adslot1_pc, #adslot2_pc {
+        display: none;
+    }
+    #adslot1_mob, #adslot2_mob {
+        display: block;
+        margin-top: 2.5vh;
+        padding: 1vw 1vw 1vw 1vw;
+        margin-bottom: 2.5vh;
+        border: 0 !important;
+    }
+
+    #adslot1_mob >img, #adslot2_mob >img {
+        border-radius: 2vw;
+    }
+
+    #intro,#behindlogo,#guide,#koduvayur, #maincontent>div {
+        padding: 1%;
+        font-size: 2.4vh;
+        font-family: "Segoe UI";
+        /*border-left: solid #8b0000 1vw;*/
+        margin-bottom: 3vh;
+    }
+    #intro>p, #behindlogo>p, #koduvayur>p, #maincontent>div>p {
+        text-indent: 8vw;
+        padding-left: 0.8vh;
+        padding-right: 0.8vh;
+        text-align: justify;
+    }
+    #intro>li {
+        padding-left: 3vh;
+    }
+    #intro>h1,#behindlogo>h1,#guide>h1, #koduvayur>h1, #maincontent>div>h1 {
+        /*margin-left: 1vh;*/
+        color: #2F4F4F;
+        border-bottom: #FF6347 2px solid;
+        font-size: 160% !important;
+        margin-bottom: 2.5vh;
+    }
+    #intro>h1>i, #guide>h1>i, #koduvayur>h1>i, #maincontent>div>h1>i {
+        float: right;
+    }
+
+    #kdrmap {
+        width: 95%;
+        height: 60vh;
+        margin: auto;
+        margin-bottom: 2.5vh;
+    }
+    #behindlogo>h1>img {
+        float: right;
+        width: 4.3vh;
+        height: 4.5vh;
+        display: inline-block;
+    }
+    #guide {
+        width: 100%;
+    }
+    #guide>img {
+        width: 100%;
+        height: auto;
+        padding-left: 1vh;
+        padding-right: 1vh;
+        padding-bottom: 2vh;
+    }
+    #footer {
+        display: block;
+        height: 8vh;
+        width: 100%;
+        background-size: cover;
+        background: url("../images/theme/footerbg.jpg");
+        overflow: hidden;
+        bottom: 0 !important;
+    }
+    #footer>p {
+        color: snow;
+        font-family: "Segoe UI";
+        font-size: 2.1vh;
+        line-height: 5vh;
+        text-align: center;
+        display: block;
+    }
+    #follow {
+        display: block;
+    }
+    #follow>a>i {
+        display: inline-block;
+        font-size: 3.8vh;
+
+    }
+    #mobshare {
+        height: 11vh;
+        line-height: 10vh;
+        padding-top: 1vh;
+    }
+    #follow>a>i {
+        color: #3b59e8 !important;
+    }
+    #mobfbshare>i {
+        color: #3b59e8 !important;
+    }
+    #mobplusone>i {
+        color: #dd4b39 !important;
+    }
+    #mobtweet>i {
+        color: #00aced !important;
+    }
+    #mobwhatsapp>i {
+        color: #25d366 !important;
+    }
+    #follow>a>i:hover {
+        color: #3b5998 !important;
+    }
+    #mobfbshare>i:hover {
+        color: #3b5998 !important;
+    }
+    #mobplusone>i:hover {
+        color: #9d4b39 !important;
+    }
+    #mobtweet>i:hover {
+        color: #007c9d !important;
+    }
+    #mobwhatsapp>i:hover {
+        color: #257366 !important;
+    }
+    #mobshare>a>i {
+        font-size: 4.5vh;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+    #pcshare, #pcshare>a, #pcshare>label {
+        display: none;
+    }
+
+    #feedbackspace {
+        display: block;
+        padding: 2vw 2vw 2vw 2vw;
+        width: 100%;
+        height: auto;
+    }
+
+    .panelout {
+        width: 98%;
+        margin: auto;
+    }
+
+    .panelcol {
+        overflow: hidden;
+        padding: 0;
+        width: 94%;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .panelcontent {
+        padding: 2vw 2vw 2vw 2vw;
+    }
+
+    .panelimg {
+        width: 100%;
+        height: 100%;
+    }
+
+    .panelname {
+        font-family: "Segoe UI Semibold";
+        cursor: pointer;
+    }
+
+    .categoryhead {
+        font-family: "Segoe UI Semibold";
+        font-size: 3.5vh;
+        line-height: 5vh;
+        height: 5vh;
+        padding: 0 4% 0 4%;
+        border-radius: 4px;
+        margin : 0 1% 3% 1% !important;
+        display: block;
+        text-align: left;
+        color: #5b3930;
+
+    }
+    #parties, #clubs, #associations{
+        background-color: #dbbcb1;
+    }
+
+    #temples, #mosques, #churches {
+        border-bottom: 1px solid #D3D3D3;
+        margin-bottom: 3%;
+    }
+
+    #desc {
+        padding: 0;
+    }
+    #desc>div {
+        text-align: center;
+    }
+    #desc>div>b {
+        font-size: 3vh;
+        line-height: 5vh;
+        font-family: "Segoe UI Semibold";
+    }
+
+    #alerts>div, #alerts>a {
+        font-family: "Segoe UI Semibold";
+        font-size: 3vh;
+        line-height: 5vh;
+        padding:  1% 0.5% 1% 0.5%;
+        border-radius: 1px;
+        margin : 2% 1% 2% 1%;
+    }
+
+    #aboutwebsite>li, #funds>li, #contactus>li {
+        padding-left: 2%;
+        text-align: justify;
+    }
+
+    #society>.categoryhead {
+        margin-left: 2%;
+    }
+
+    #trends {
+        border: 0 !important;
+    }
+    #newshead,#articleshead,#pictureshead, #videoshead {
+        text-align: center;
+        font-weight: bold;
+        font-size: 3.6vh;
+        line-height: 6.4vh;
+        height: 6.4vh;
+        border: solid 1px darkgray;
+        font-family: "Segoe UI Semibold";
+        cursor: pointer;
+        margin-bottom: 1%;
+        overflow: hidden;
+    }
+
+    #emergency {
+        border: 0 !important;
+        font-size: 5vh !important;
+        font-family: "Segoe UI Semibold";
+        line-height: 150%;
+        height: 9vh;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 6px;
+        width: 100%;
+    }
+
+
+    #servicebroad {
+        overflow: hidden;
+        padding: 0;
+        margin: auto;
+    }
+
+    .servicecol {
+        overflow: hidden;
+        padding: 0;
+        width: 100%;
+        margin-bottom: 1%;
+        margin-top: 4%;
+        cursor: pointer;
+    }
+
+    /*#education, #health, #transport, #household, #foodnstay, #shopping, #govtservices, #eventservice, #servicenrepair {*/
+
+    /*}*/
+
+    .servicesub {
+        padding: 2% 1% 2% 1%;
+        border-bottom-left-radius: 1vh;
+        border-bottom-right-radius: 1vh;
+        margin: 0;
+    }
+
+    .servicesupersub {
+        font-size: 3vh;
+        width: 98%;
+        margin-left: 1.5%;
+        margin-right: 1.5%;
+        cursor: pointer;
+        font-family: "Segoe UI Semibold";
+        line-height: 6vh;
+        height: 6vh;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        border-radius: 4vh;
+        margin-top: 1.5%;
+        margin-bottom: 1.5%;
+        overflow: hidden;
+    }
+    .servicesupersub>i {
+        text-align: left;
+        margin-right: 3%;
+    }
+    .servicesupersub>div {
+        text-overflow: ellipsis;
+    }
+
+    .servicelistitem {
+        font-size: 2.5vh;
+        width: 96%;
+        margin-left: 2%;
+        margin-right: 2%;
+        padding-top: 1.5%;
+        cursor: pointer;
+        font-family: "Segoe UI Semibold";
+        height: auto;
+        line-height: 2.8vh;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        border-radius: 1vh;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        overflow: hidden;
+    }
+    .servicelistitem>i {
+        text-align: left;
+        margin-right: 1%;
+    }
+    .servicelistitem>div {
+        text-overflow: ellipsis;
+    }
+
+    .fb-comments {
+        display: block;
+        width: 100%;
+        margin : 3% 0 3% 0 !important;
+        padding: 0;
+    }
+
+    .myalert {
+        background-color: #DCDCDC;
+    }
+
+    #firstline{
+        display: block;
+    }
+    #lastupdated{
+        display: inline-block;
+    }
+    #lastupdated>p {
+        display: inline-block;
+        font-style: italic;
+    }
+    .fb-like1,.fb-like2 {
+        display: none !important;
+    }
+    .fb-like3 {
+        display: block !important;
+        margin: 0 auto !important;
+        width: auto;
+        height: auto;
+    }
+
+    @media (min-width: 720px) {
+
+        .fb-like3 {
+            display: inline-block;
+            float: right;
+            width: auto;
+            height: auto;
+        }
+
+    }
+
+    #news, #articles, #pictures, #videos {
+
+        padding: 1vh 1vw 1vh 1vw ;
+
+
+    }
+
+}
+
+
+
+@media (orientation: landscape) {
+
+    .myinline {
+        display: inline;
+    }
+
+    @media (max-width: 1090px) {
+
+        #content {
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            background: #fcfcfc;
+        }
+
+        #maincontent {
+            /*background-color: #cccccc;*/
+            width: 100% !important;
+            padding: 1vw 1vw 1vw 1vw;
+        }
+        #maincontent>p {
+            display: none;
+        }
+
+        #adslot1_pc, #adslot2_pc {
+            display: none;
+        }
+        #adslot1_mob, #adslot2_mob {
+            display: block;
+            padding: 1vw 1vw 1vw 1vw;
+            margin: 0;
+            margin-bottom: 3vh;
+            border: 0 !important;
+        }
+        #adslot1_mob>div, #adslot2_mob>div {
+            height: 16vh;
+            background: none;
+        }
+
+        #intro,#behindlogo,#guide,#koduvayur, #maincontent>div {
+            padding: 1%;
+            font-size: 4vh;
+            font-family: "Segoe UI";
+            /*border-left: solid #8b0000 1vh;*/
+            margin-bottom: 7vh;
+        }
+        #intro>p, #behindlogo>p, #koduvayur>p, #maincontent>div>p {
+            text-indent: 8vw;
+            padding-left: 2vh;
+            padding-right: 2vh;
+            text-align: justify;
+        }
+        #intro>li {
+            padding-left: 3vh;
+        }
+        #intro>h1,#behindlogo>h1,#guide>h1,#koduvayur>h1, #maincontent>div>h1 {
+            /*margin-left: 2vh;*/
+            color: #2F4F4F;
+            border-bottom: #FF6347 2px solid;
+            font-size: 6.4vh !important;
+            margin-bottom: 4vh;
+        }
+        #intro>h1>i, #guide>h1>i, #koduvayur>h1>i, #maincontent>div>h1>i {
+            float: right;
+        }
+
+        #kdrmap {
+            width: 95%;
+            height: 60vh;
+            margin: auto;
+            margin-bottom: 3.5vh;
+        }
+        #behindlogo>h1>img {
+            float: right;
+            width: 6.7vh;
+            height: 6.9vh;
+            display: inline-block;
+        }
+        #guide {
+            width: 100%;
+        }
+        #guide>img {
+            width: 100%;
+            height: auto;
+            padding-left: 2vh;
+            padding-right: 2vh;
+            padding-bottom: 2vh;
+        }
+        #footer {
+            display: block;
+            height: 12vh;
+            width: 100%;
+            background-size: cover;
+            background: url("../images/theme/footerbg.jpg");
+            overflow: hidden;
+            bottom: 0 !important;
+        }
+        #footer>p {
+            color: snow;
+            font-family: "Segoe UI";
+            font-size: 3.5vh;
+            line-height: 12vh;
+            text-align: center;
+            display: block;
+        }
+        #follow {
+            display: inline-block;
+            float: right;
+        }
+        #follow>a>i {
+            display: inline-block;
+            font-size: 7vh;
+
+        }
+        #mobshare {
+            height: 18vh;
+            width: 100% !important;
+        }
+        #mobshare>a {
+            line-height: 18vh;
+            padding-top: 6vh;
+        }
+        #follow>a>i {
+            color: #3b59e8 !important;
+        }
+        #mobfbshare>i {
+            color: #3b59e8 !important;
+        }
+        #mobplusone>i {
+            color: #dd4b39 !important;
+        }
+        #mobtweet>i {
+            color: #00aced !important;
+        }
+        #mobwhatsapp>i {
+            color: #25d366 !important;
+        }
+        #follow>a>i:hover {
+            color: #3b5998 !important;
+        }
+        #mobfbshare>i:hover {
+            color: #3b5998 !important;
+        }
+        #mobplusone>i:hover {
+            color: #9d4b39 !important;
+        }
+        #mobtweet>i:hover {
+            color: #007c9d !important;
+        }
+        #mobwhatsapp>i:hover {
+            color: #257366 !important;
+        }
+        #mobshare>a>i {
+            font-size: 8vh;
+            padding-left: 8vw;
+            padding-right: 8vw;
+        }
+        #pcshare, #pcshare>a, #pcshare>label {
+            display: none;
+        }
+
+        #feedbackspace {
+            display: block;
+            padding: 2vh 2vh 2vh 2vh;
+            width: 100%;
+            height: auto;
+        }
+
+        .panelout {
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        .panelcol {
+            overflow: hidden;
+            padding: 0;
+            width: 47%;
+            margin-left: 1%;
+            margin-right: 1%;
+            display: inline-block;
+        }
+
+        .panelcontent {
+            padding: 1vh 1vh 1vh 1vh;
+        }
+
+        .panelimg {
+            width: 100%;
+            height: 100%;
+        }
+
+        .panelname {
+            font-family: "Segoe UI Semibold";
+            cursor: pointer;
+        }
+
+        .categoryhead {
+            font-family: "Segoe UI Semibold";
+            font-size: 6vh;
+            line-height: 9vh;
+            height: 9vh;
+            padding: 0 4% 0 4%;
+            border-radius: 4px;
+            margin : 0% 1% 3% 1%;
+            color: #5B3930;
+            display: block;
+            text-align: left;
+        }
+        #parties, #clubs, #associations{
+            background-color: #dbbcb1;
+        }
+
+        #temples, #mosques, #churches {
+            border-bottom: 1px solid #D3D3D3;
+            margin-bottom: 3%;
+        }
+
+        #desc {
+            padding: 0;
+        }
+        #desc>div {
+            text-align: center;
+        }
+        #desc>div>b {
+            font-size: 6vh;
+            line-height: 10vh;
+            font-family: "Segoe UI Semibold";
+        }
+
+        #alerts>div, #alerts>a {
+            font-family: "Segoe UI Semibold";
+            font-size: 4.5vh;
+            line-height: 7vh;
+            padding:  0.5% 0.5% 0.5% 0.5%;
+            border-radius: 1px;
+            margin : 1.5% 1.5% 1.5% 1.5%;
+        }
+
+        #aboutwebsite>li, #funds>li, #contactus>li {
+            padding-left: 2%;
+            text-align: justify;
+            line-height: 6vh;
+        }
+
+        #society>.categoryhead {
+            margin-left: 2%;
+        }
+
+        #trends {
+            border: 0 !important;
+        }
+        #newshead,#articleshead,#pictureshead, #videoshead {
+            width: 49.5%;
+            display: inline-block;
+            text-align: center;
+            font-weight: bold;
+            font-size: 5vh;
+            line-height: 12vh;
+            height: 12vh;
+            border: solid 1px darkgray;
+            font-family: "Segoe UI Semibold";
+            cursor: pointer;
+            margin-bottom: 1%;
+            overflow: hidden;
+        }
+
+        #emergency {
+            border: 0 !important;
+            font-size: 9vh !important;
+            font-family: "Segoe UI Semibold";
+            line-height: 140%;
+            height: 16vh;
+            text-align: center;
+            cursor: pointer;
+            border-radius: 12px;
+        }
+
+
+        #servicebroad {
+            overflow: hidden;
+            padding: 0;
+            margin: auto;
+        }
+
+        .servicecol {
+            overflow: hidden;
+            padding: 0;
+            width: 47.5%;
+            margin-left: 1%;
+            margin-right: 1%;
+            cursor: pointer;
+            display: inline-block;
+            margin-bottom: 3%;
+        }
+
+        .panelname:hover, .panelname:active {
+            background-color: #707070 ;
+            color: #fafafa;
+        }
+
+        /*#education, #health, #transport, #household, #foodnstay, #shopping, #govtservices, #eventservice, #servicenrepair {*/
+
+        /*}*/
+
+        .servicesub {
+            padding: 1% 1% 1% 1%;
+            border-radius: 2vh;
+            margin-bottom: 3%;
+        }
+
+        .servicesupersub {
+            font-size: 4.5vh;
+            width: 47.5%;
+            margin-left: 1%;
+            margin-right: 1%;
+            cursor: pointer;
+            font-family: "Segoe UI Semibold";
+            line-height: 10vh;
+            height: 10vh;
+            text-overflow: ellipsis;
+            border-radius: 5vh;
+            margin-top: 0.5%;
+            margin-bottom: 0.5%;
+            display: inline-block;
+            overflow: hidden;
+        }
+        .servicesupersub>i {
+            text-align: left;
+            margin-right: 3%;
+        }
+        .servicesupersub>div {
+            text-overflow: ellipsis;
+        }
+
+        .servicelistitem {
+            font-size: 4vh;
+            width: 47.5%;
+            padding-top: 1%;
+            margin-left: 1%;
+            margin-right: 1%;
+            cursor: pointer;
+            font-family: "Segoe UI Semibold";
+            line-height: 5vh;
+            height: auto;
+            text-overflow: ellipsis;
+            border-radius: 1.3vh;
+            margin-top: 0.5%;
+            margin-bottom: 0.5%;
+            display: inline-block;
+            overflow: hidden;
+        }
+        .servicelistitem>i {
+            text-align: left;
+            margin-right: 1%;
+        }
+        .servicelistitem>div {
+            text-overflow: ellipsis;
+        }
+
+        .fb-comments {
+            display: block;
+            width: 100%;
+            margin: 3% 0 3% 0 !important;
+            padding: 0;
+        }
+
+        .myalert {
+            background-color: #DCDCDC;
+        }
+
+        #firstline{
+            display: block;
+        }
+        #lastupdated{
+            display: inline-block;
+        }
+        #lastupdated>p {
+            display: inline-block;
+            font-style: italic;
+        }
+        .fb-like1,.fb-like3 {
+            display: none !important;
+        }
+        .fb-like2 {
+            display: inline-block;
+            float: right;
+            width: auto;
+            height: auto;
+        }
+
+    }
+
+    @media (min-width: 1091px) {
+
+        #content {
+            padding: 0 !important;
+            margin: 0;
+            width: 100%;
+            background: #fcfcfc;
+        }
+
+        #maincontent {
+            /*background-color: #cccccc;*/
+            display: inline-block;
+            padding: 2vh 1vh 2vh 1vh;
+            margin: 0 !important;
+        }
+
+        #adslot1_pc, #adslot2_pc {
+            display: inline-block;
+            padding: 2vh 2vh 2vh 2vh;
+            margin: 0;
+        }
+
+        #adslot1_pc > div, #adslot2_pc > div {
+            height: 75vh;
+            background: none;
+        }
+
+        #adslot1_mob, #adslot2_mob {
+            display: none;
+        }
+
+        #intro, #behindlogo, #guide, #koduvayur, #maincontent > div {
+            padding: 0;
+            font-size: 2.2vh;
+            font-family: "Segoe UI";
+            /*border-left: solid #8b0000 0.3vw;*/
+
+        }
+
+        #intro > p, #behindlogo > p, #koduvayur > p, #maincontent > div > p {
+            text-indent: 3vw;
+            /*padding-left: 1vh;*/
+            text-align: justify;
+        }
+
+        #intro > li {
+            padding-left: 2vh;
+        }
+
+        #intro > h1, #behindlogo > h1, #guide > h1, #koduvayur > h1, #maincontent > div > h1 {
+            /*margin-left: 2vh;*/
+            color: #2F4F4F;
+            border-bottom: #FF6347 2px solid;
+            margin-bottom: 3vh;
+            font-size: 4vh !important;
+        }
+
+        #intro > h1 > i, #guide > h1 > i, #koduvayur > h1 > i, #maincontent > div > h1 > i {
+            float: right;
+        }
+
+        #kdrmap {
+            width: 95%;
+            height: 60vh;
+            margin: auto;
+            margin-bottom: 3vh;
+        }
+
+        #behindlogo > h1 > img {
+            float: right;
+            width: 4vh;
+            height: 4.2vh;
+            display: inline-block;
+        }
+
+        #guide {
+            width: 100%;
+        }
+
+        #guide > img {
+            width: 100%;
+            height: auto;
+            padding-left: 2vh;
+            padding-right: 2vh;
+            padding-bottom: 2vh;
+        }
+
+        #maincontent > div {
+            margin-bottom: 3vh;
+        }
+
+        #footer {
+            display: block;
+            height: 8vh;
+            width: 100%;
+            overflow: hidden;
+            bottom: 0 !important;
+            background-size: cover;
+            background: url("../images/theme/footerbg.jpg");
+        }
+
+        #footer > p {
+            color: snow;
+            font-family: "Segoe UI";
+            font-size: 1.8vh;
+            text-align: center;
+            display: block;
+        }
+
+        #pcshare > label {
+            display: block;
+            text-align: center;
+            font-weight: normal;
+        }
+
+        #pcshare > a {
+            padding: 1vh;
+            display: inline-block;
+
+        }
+
+        #pcshare > a > i {
+            font-size: 4vh !important;
+
+        }
+
+        #follow {
+            margin-left: 20vw;
+            display: inline-block;
+        }
+
+        #pcshare {
+            display: block;
+            text-align: center;;
+            /*text-align: center;*/
+            /*float: right;*/
+        }
+
+        #copyright {
+            display: block;
+            margin-top: 1vh;
+            line-height: 3vh;
+            /*float: left;*/
+        }
+
+        #follow > a > i {
+            color: #3b59e8 !important;
+        }
+
+        #pcfbshare > i {
+            color: #3b59e8 !important;
+        }
+
+        #pcplusone > i {
+            color: #dd4b39 !important;
+        }
+
+        #pctweet > i {
+            color: #00aced !important;
+        }
+
+        #pcwhatsapp > i {
+            color: #25d366 !important;
+        }
+
+        #follow > a > i:hover {
+            color: #3b5998 !important;
+        }
+
+        #pcfbshare > i:hover {
+            color: #3b5998 !important;
+        }
+
+        #pcplusone > i:hover {
+            color: #9d4b39 !important;
+        }
+
+        #pctweet > i:hover {
+            color: #007c9d !important;
+        }
+
+        #pcwhatsapp > i:hover {
+            color: #257366 !important;
+        }
+
+        #mobshare {
+            display: none;
+        }
+
+        #mobshare > a {
+            display: none;
+        }
+
+        #feedbackspace {
+            display: block;
+            padding: 2vh 2vh 2vh 2vh;
+            width: 100%;
+            height: auto;
+        }
+
+        .panelout {
+            width: 98%;
+            margin: 2% auto;
+        }
+
+        .panelcol {
+            overflow: hidden;
+            padding: 0;
+            width: 23%;
+            margin-left: 1%;
+            margin-right: 1%;
+        }
+
+        .panelcontent {
+            padding: 1vh 1vh 1vh 1vh;
+        }
+
+        .panelimg {
+            width: 100%;
+            height: 100%;
+        }
+
+        .panelname {
+            font-family: "Segoe UI Semibold";
+            cursor: pointer;
+            height: 8.5vh;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .panelcol:hover .panelname, .panelcol:active panelname{
+            overflow-y: visible;
+        }
+
+        .categoryhead {
+            font-family: "Segoe UI Semibold";
+            font-size: 4vh;
+            line-height: 6vh;
+            height: 6vh;
+            padding: 0 4% 0 4%;
+            border-radius: 4px;
+            margin: 0 1% 3% 1% !important;
+            display: block;
+            text-align: left;
+            color: #5b3930;
+        }
+
+        #parties, #clubs, #associations {
+            background-color: #dbbcb1;
+        }
+
+        #temples, #mosques, #churches {
+            border-bottom: 1px solid #D3D3D3;
+            margin-bottom: 3%;
+        }
+
+        #desc {
+            padding: 0;
+        }
+
+        #desc > div {
+            text-align: center;
+        }
+
+        #desc > div > b {
+            font-size: 3.5vh;
+            line-height: 6vh;
+            font-family: "Segoe UI Semibold";
+        }
+
+        #alerts > div {
+            font-family: "Segoe UI Semibold";
+            font-size: 3vh;
+            line-height: 6vh;
+            padding: 0.5% 0.5% 0.5% 0.5%;
+            border-radius: 1px;
+            margin: 1.5% 1.5% 1.5% 1.5%;
+        }
+
+        #alerts > a {
+            font-size: 3vh;
+            padding-right: 2%;
+        }
+
+        #aboutwebsite > li, #funds > li, #contactus > li {
+            padding-left: 2%;
+            text-align: justify;
+            line-height: 4vh;
+        }
+
+        #society > .categoryhead {
+            margin-left: 2%;
+        }
+
+        #trends {
+            border: 0 !important;
+        }
+
+        #newshead, #articleshead, #pictureshead, #videoshead {
+            text-align: center;
+            font-weight: bold;
+            font-size: 3vh;
+            line-height: 7vh;
+            height: 7vh;
+            border: solid 1px darkgray;
+            font-family: "Segoe UI Semibold";
+            cursor: pointer;
+            overflow: hidden;
+        }
+
+        #emergency {
+            border: 0 !important;
+            font-size: 4vh !important;
+            font-family: "Segoe UI Semibold";
+            line-height: 8vh;
+            height: 8vh;
+            text-align: center;
+            cursor: pointer;
+            border-radius: 8px;
+            width: 100%;
+            /*margin: 0 20% 0 20% ;*/
+        }
+
+        #servicebroad {
+            overflow: hidden;
+            padding: 0;
+            margin: auto;
+        }
+
+        .servicecol {
+            overflow: hidden;
+            padding: 0;
+            width: 31.3%;
+            margin-left: 1%;
+            margin-right: 1%;
+            cursor: pointer;
+        }
+
+        /*#education, #health, #transport, #household, #foodnstay, #shopping, #govtservices, #eventservice, #servicenrepair {*/
+        /*}*/
+        .servicesub {
+            padding: 1% 1% 1% 1%;
+            border-radius: 2vh;
+        }
+
+        .servicesupersub {
+            font-size: 2.5vh;
+            width: 31.3%;
+            margin-left: 1%;
+            margin-right: 1%;
+            cursor: pointer;
+            font-family: "Segoe UI Semibold";
+            line-height: 8vh;
+            height: 8vh;
+            text-overflow: ellipsis;
+            border-radius: 5vh;
+            margin-top: 0.5%;
+            margin-bottom: 0.5%;
+            overflow: hidden;
+        }
+
+        .servicesupersub > i {
+            text-align: left;
+            margin-right: 1%;
+        }
+
+        .servicesupersub > div {
+            text-overflow: ellipsis;
+        }
+
+        .servicelistitem {
+            font-size: 2.2vh;
+            color: #1c1c1c;
+            width: 31.3%;
+            padding-top: 1%;
+            margin-left: 1%;
+            margin-right: 1%;
+            cursor: pointer;
+            font-family: "Segoe UI Semibold";
+            line-height: 3vh;
+            height: auto;
+            text-overflow: ellipsis;
+            border-radius: 1.3vh;
+            margin-top: 0.5%;
+            margin-bottom: 0.5%;
+            overflow: hidden;
+        }
+
+        .servicelistitem > i {
+            text-align: left;
+            margin-right: 1%;
+        }
+
+        .servicelistitem > div {
+            text-overflow: ellipsis;
+        }
+
+        .fb-comments {
+            display: block;
+            width: 100%;
+            margin: 3% 0 3% 0;
+            padding: 0;
+        }
+
+        .myalert {
+            background-color: #DCDCDC;
+        }
+
+        #firstline {
+            display: block;
+        }
+
+        #lastupdated {
+            display: inline-block;
+        }
+
+        #lastupdated > p {
+            display: inline-block;
+            font-style: italic;
+        }
+
+        .fb-like2, .fb-like3 {
+            display: none !important;
+        }
+
+        .fb-like1 {
+            display: inline-block;
+            float: right;
+            width: auto;
+            height: auto;
+        }
+
+    }
+
+    #news, #articles, #pictures, #videos {
+
+        padding: 2vh 1vw 2vh 1vw ;
+
+
+    }
+
+    #pictures>div, #news>div, #articles>div #videos>div {
+
+        width: 100% !important;
+        height: auto;
+
+    }
+
+}

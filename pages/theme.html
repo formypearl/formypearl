@@ -1,0 +1,84 @@
+
+
+<div class="col-md-12" id="mypage" ng-controller="mainController">
+
+    <nav id="mykdr_nav" style="background: rgba(020,020,020, 0.05) !important; border-bottom: none !important;">
+
+        <div class="col-md-12">
+
+            <div id="mykdr_logo">
+                <a href="#"><img class="mylogo" src={{dataSelected.mainData.general.logo}} alt={{dataSelected.mainData.general.url}}></a>
+                <label ng-click="opened()" id="mymenuglyph"><i class="fa fa-snowflake-o"></i></label>
+                <label ng-click="closed()" id="closenav"><i class="fa fa-spinner"></i></label>
+            </div>
+
+            <ul id="mykdr_menu">
+
+            </ul>
+        </div>
+
+    </nav>
+
+    <div class="col-md-12" id="theme-non-nav">
+
+        <div id="myCarouselPortrait" class="mob carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img class="bannermob" src={{dataSelected.mainData.theme.portrait.pic1}} alt={{dataSelected.mainData.theme.portrait.pic1alt}}>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="myCarouselLandscape" class="pc carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img class="bannerpc" src={{dataSelected.mainData.theme.landscape.pic1}} alt={{dataSelected.mainData.theme.landscape.pic1alt}}>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-md-12 menu">
+
+            <div class="angelslot">
+
+                <img class="angel" src={{dataSelected.mainData.menu.angel}} />
+
+            </div>
+
+            <div class="menulove">
+
+                <a href="#cutiepie">
+                    <div class="col-md-12 cutiepie">
+                        <div class="centered">{{dataSelected.mainData.menu.cutiepie}}</div>
+                    </div>
+                </a>
+
+                <a href="#dream">
+                    <div class="col-md-12 dream">
+                        <div class="centered">{{dataSelected.mainData.menu.dream}}</div>
+                    </div>
+                </a>
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <div class="col-md-12" id="footer" ng-controller="mainController">
+
+        <p id="copyright">{{dataSelected.mainData.footer.copyright}}</p>
+
+    </div>
+
+</div>

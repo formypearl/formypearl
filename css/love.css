@@ -1,0 +1,388 @@
+
+
+.auth {
+    opacity: 0.9;
+    z-index: 1000;
+    display: block;
+    position: fixed;
+}
+.auth>a {
+    color: white !important;
+}
+
+#redirect {
+    display: none;
+}
+
+#incorrect {
+    display: none;
+}
+
+.pearl {
+    z-index: 10;
+    display: block;
+    position: fixed;
+    left: 50%;
+    margin-left: -50%;
+
+}
+
+
+a:hover{
+    text-decoration: none !important;
+    text-underline: none !important;
+}
+
+.seasons:hover, .cutiepie:hover, .dream:hover {
+    color: #ffffff;
+    cursor: pointer;
+    border: 1px solid rgb(173, 179, 184);
+    box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.2) inset, 0px 0px 72px rgba(101, 117, 125, 0.9);
+    background: none;
+    color: darkred;
+}
+
+
+@media(max-width: 300px){
+
+
+}
+
+
+@media (orientation: portrait) {
+
+    .auth {
+        top: 10vh;
+        width: 70vw;
+        left: 50%;
+        margin-left: -35vw;
+    }
+
+    .pearl {
+        top: 36vh;
+        width: 90vw;
+        height: auto;
+        left: 50%;
+        margin-left: -45vw;
+    }
+
+    .menu {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        background: url("../images/theme/seasons.jpg");
+        background-size: cover;
+        z-index: 10;
+    }
+
+    .angelslot {
+        position: relative;
+        display: inline-block;
+        margin: 0;
+        width: 100%;
+        padding: 2%;
+    }
+
+    .angel {
+        display: block;
+        height: auto;
+        width: 100%;
+        position: relative;
+        border-radius: 3%;
+        padding: 0;
+        margin: 0;
+        vertical-align: middle;
+    }
+
+    .centered {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .menulove{
+        position: relative;
+        display: block;
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 2%;
+        z-index: 10;
+    }
+
+    .cutiepie{
+        width: 100%;
+        height: 11vh;
+        display: block;
+        z-index: 11;
+        margin-bottom: 2vh;
+        background: url("../images/theme/cutiepie.jpg");
+        background-size: cover;
+        text-align: center;
+        line-height: 6vh;
+        padding: 4%;
+        font-size: 7vw;
+        font-family: "Segoe UI Semibold";
+        color: #f1f1f1;
+        border-radius: 1vw;
+    }
+
+
+    .dream{
+        background: url("../images/theme/dream.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align: center;
+        z-index: 11;
+        border-top: 1px solid transparent;
+        font-size: 7vw;
+        color: #f1f1f1;
+        line-height: 12vh;
+        font-family: "Segoe UI Semibold";
+        padding: 4% 4% 4% 4%;
+        width: 100%;
+        height: 11vh;
+        display: block;
+        margin-top: 2vh;
+        border-radius: 1vw;
+    }
+
+    .lovelistitem {
+        display: block;
+        margin: 1.5vh 0 1.5vh 0;
+    }
+
+}
+
+
+@media (orientation: landscape){
+
+    @media (max-width: 1091px) {
+
+        .auth {
+            top: 20vh;
+            width: 42vw;
+            left: 50%;
+            margin-left: 0;
+        }
+
+        .pearl {
+            top: 4vh;
+            width: 40vw;
+            height: auto;
+            left: 50%;
+            margin-left: -40vw;
+        }
+
+        .menu {
+            position: relative;
+            display: block;
+            width: 100%;
+            height: auto;
+            margin: 0;
+            padding: 0;
+            background: url("../images/theme/seasons.jpg");
+            background-size: cover;
+            z-index: 10;
+        }
+
+        .angelslot {
+            position: relative;
+            display: inline-block;
+            margin: 0;
+            width: 41.6%;
+            padding: 2.5vh 1% 2.5vh 2%;
+        }
+
+        .angel {
+            display: block;
+            height: auto;
+            width: 100%;
+            position: relative;
+            border-radius: 3%;
+            padding: 0;
+            margin: 0;
+            vertical-align: middle;
+        }
+
+        .centered {
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .menulove{
+            position: relative;
+            display: inline-block;
+            width: 57.5%;
+            height: auto;
+            margin: 0;
+            padding: 2.5vh 2% 2.5vh 1%;
+            background-size: cover;
+            z-index: 10;
+            float: right;
+        }
+
+        .cutiepie{
+            width: 100%;
+            height: 28vh;
+            display: block;
+            z-index: 11;
+            margin-bottom: 2vh;
+            margin-top: 0;
+            background: url("../images/theme/cutiepie.jpg");
+            background-size: cover;
+            text-align: center;
+            line-height: 12vh;
+            padding: 2vh 5% 2vh 5%;
+            font-size: 6.5vh;
+            font-family: "Segoe UI Semibold";
+            color: #f1f1f1;
+            border-radius: 2vh;
+        }
+
+
+        .dream{
+            background: url("../images/theme/dream.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            text-align: center;
+            display: block;
+            width: 100%;
+            height: 28vh;
+            z-index: 11;
+            border-top: 1px solid transparent;
+            font-size: 6.5vh;
+            color: #f1f1f1;
+            line-height: 12vh;
+            padding: 2vh 5% 2vh 5%;
+            border-radius: 2vh;
+            font-family: "Segoe UI Semibold";
+        }
+
+        .lovelistitem {
+            display: inline-block;
+            margin: 2vh 0 2vh 0;
+        }
+
+    }
+
+    @media (min-width: 1091px) {
+
+        .auth {
+            top: 30vh;
+            width: 32vw;
+            left: 50%;
+            margin-left: 0;
+        }
+
+        .pearl {
+            top: 4vh;
+            width: 40vw;
+            height: auto;
+            left: 50%;
+            margin-left: -40vw;
+        }
+
+        .menu {
+            position: relative;
+            display: block;
+            width: 100%;
+            height: auto;
+            margin: 0;
+            padding: 0;
+            background: url("../images/theme/seasons.jpg");
+            background-size: cover;
+            z-index: 10;
+        }
+
+        .angelslot {
+            position: relative;
+            display: inline-block;
+            margin: 0;
+            width: 41.8%;
+            padding: 2.5vh 1% 2.5vh 1%;
+        }
+
+        .centered {
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .menulove{
+
+            position: relative;
+            display: inline-block;
+            margin: 0;
+            width: 57.8%;
+            padding: 2.5vh 1% 2.5vh 2%;
+        }
+
+        .cutiepie>div {
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .cutiepie{
+            position: relative;
+            width: 100%;
+            height: 28vh;
+            display: block;
+            z-index: 11;
+            margin-bottom: 2vh;
+            background: url("../images/theme/cutiepie.jpg");
+            background-size: cover;
+            text-align: center;
+            line-height: 9vh;
+            padding: 1vh 15% 1vh 15%;
+            font-size: 6.5vh;
+            font-family: "Segoe UI Semibold";
+            color: #f6f6f6;
+            border-radius: 1vh;
+        }
+
+
+        .dream{
+            background: url("../images/theme/dream.jpg");
+            position: relative;
+            width: 100%;
+            height: 28vh;
+            display: block;
+            z-index: 11;
+            margin-bottom: 2vh;
+            background-size: cover;
+            text-align: center;
+            line-height: 9vh;
+            padding: 1vh 15% 1vh 15%;
+            font-size: 6.5vh;
+            font-family: "Segoe UI Semibold";
+            color: #f6f6f6;
+            border-radius: 1vh;
+        }
+
+        .lovelistitem {
+            display: inline-block;
+            margin: 1vh 0 1vh 0;
+        }
+
+        .angel {
+            display: block;
+            height: auto;
+            width: 100%;
+            position: relative;
+            border-radius: 4%;
+        }
+
+    }
+
+}
+

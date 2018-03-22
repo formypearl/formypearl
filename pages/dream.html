@@ -1,0 +1,43 @@
+<div class="col-md-12 ng-scope" id="mypage" ng-controller="mainController">
+
+    <nav id="mykdr_nav">
+
+        <div class="col-md-12">
+
+            <div id="mykdr_logo">
+                <a href="#"><img class="mylogo" src={{dataSelected.mainData.general.logo}} alt={{dataSelected.mainData.general.url}}></a>
+                <label ng-click="opened()" id="mymenuglyph"><i class="fa fa-snowflake-o"></i></label>
+                <label ng-click="closed()" id="closenav"><i class="fa fa-spinner"></i></label>
+            </div>
+
+            <ul id="mykdr_menu">
+
+            </ul>
+        </div>
+    </nav>
+
+    <div class="col-md-12" id="non-nav" ng-controller="mainController">
+
+        <img src={{dataSelected.mainData.covers.dream}} class="pagebanner" />
+
+        <div class="col-md-2" id="adslot1_pc">
+            <div></div>
+            <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+        </div>
+
+        <div class="col-md-8" id="maincontent">
+
+            <div class="col-md-12">
+                <img style="width:100%;height:auto" src={{dataSelected.mainData.general.spiral}} />
+            </div>
+
+        </div>
+
+        <div class="col-md-2" id="adslot2_pc">
+            <div></div>
+            <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+        </div>
+
+    </div>
+
+</div>

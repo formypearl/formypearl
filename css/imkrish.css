@@ -1,0 +1,636 @@
+
+img {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+    user-drag: none;
+    -webkit-touch-callout: none;
+}
+
+body {
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    /* Not sure for the below properties they may not work properly */
+    -o-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+
+#fb-root {
+    display: none !important;
+}
+
+#mypage{
+
+    margin:0 0 0 0;
+    padding:0 0 0 0;
+    display: block;
+}
+
+
+#mykdr_nav{
+
+    display: block;
+    margin: 0;
+    top: 0;
+    position: fixed;
+    z-index: 10000;
+    width : 100%;
+    background: rgba(250,250,250, 0.98);
+    border-bottom: 1px solid #5B3930;
+}
+
+#mykdr_menu{
+
+    z-index: 10000;
+}
+
+#mykdr_logo{
+
+    z-index: 10001;
+}
+
+#bannerdiv{
+    display: block;
+    overflow: hidden;
+    width:100%;
+
+    /*border-bottom: 0.3vh solid #1c1c1c;*/
+}
+
+.footer{
+
+    width: 100%;
+    height: 10vh;
+    display: block;
+    position: absolute;
+    background: linear-gradient(to bottom, rgba(37,126,125,1) 0%, rgba(40,176,176,1) 65%, rgba(38,209,170,1) 100%);
+    bottom: 0;
+
+}
+
+/*.mylogocap{*/
+    /*color: #1c1c1c !important;*/
+    /*cursor: pointer;*/
+    /*font-weight: bold;*/
+    /*font-family: "Segoe UI Semibold";*/
+    /*text-decoration: wavy !important;*/
+/*}*/
+/*.mylogocap:hover{*/
+    /*text-decoration: wavy !important;*/
+/*}*/
+/*.mylogocap:active{*/
+    /*text-decoration: wavy !important;*/
+/*}*/
+
+#hitweb>label {
+    width: 100%;
+    text-align: center;
+}
+
+.teamimg {
+    display: block;
+    margin: auto !important;
+    width: 50%;
+    height: 50%;
+}
+
+#team {
+    padding: 1vh 0.5vw 1vh 0.5vw;
+    display: block;
+    text-align: justify;
+}
+
+#hitimage {
+    margin: auto;
+    display: block;
+}
+
+#language {
+    padding: 0 !important;
+}
+#english {
+    cursor: pointer;
+    display: inline-block !important;
+    font-weight: bold;
+    /*background-color: #34495E;*/
+    /*color: #FF6347;*/
+    margin-right: 0 !important;
+}
+#malayalam {
+    cursor: pointer;
+    display: inline-block !important;
+    font-weight: bold;
+    /*background: none;*/
+    /*color: #5b3930;*/
+    margin-left: 0 !important;
+}
+#english:hover,#malayalam:hover{
+    color: #FF6347 !important;
+}
+
+.pagebanner{
+    border-bottom: 1px solid #1c1c1c;
+}
+
+#mykdr_menu>li{
+    font-family: "Segoe UI Semibold" ;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+
+#home:hover>a, #locality:hover>a, #culture:hover>a, #services:hover>a, #trending:hover>a, #events:hover>a, #feedback:hover>a, #about:hover>a {
+    color: #1c1c1c;
+}
+#mykdr_menu>li>a:hover {
+    text-decoration: wavy !important;
+
+}
+#mykdr_menu>li>a:active {
+    text-decoration: wavy !important;
+
+}
+
+
+#alertlang {
+    display: block;
+    position: fixed;
+    z-index: 9999;
+    border-radius: 6px;
+    overflow: hidden;
+    text-align: center;
+    opacity: 0.93;
+}
+
+#feedback:hover>a, #feedback:hover>a>i {
+    color: #4B0082 !important;
+    text-decoration: wavy;
+}
+
+#home>a, #locality>a, #culture>a, #services>a, #trending>a, #events>a, #feedback>a, #about>a{
+    color: #5b3930;
+    cursor: pointer;
+}
+
+#alertlang {
+    display: none;
+    z-index: 9999;
+}
+
+
+@media(max-width: 300px){
+
+
+}
+
+
+@media (orientation: portrait) {
+
+    #mykdr_nav{
+        top: 0;
+        height: 8.5vh;
+        margin: 0;
+        padding: 0;
+
+    }
+
+
+    #theme-non-nav{
+        margin: 0;
+        padding: 0;
+        display: block;
+    }
+
+    #non-nav{
+        top: 8.5vh;
+        padding: 0;
+        display: block;
+    }
+
+
+
+    .bannermob {
+
+        width: 100%;
+        height: 100%;
+        /*height: auto;*/
+        /*bottom: 0;*/
+        /*overflow: hidden;*/
+
+    }
+
+    #mykdr_logo {
+
+        height: 8.5vh;
+        width: 100%;
+        line-height: 8vh;
+        cursor: pointer;
+        display: block;
+        float: left;
+        position: relative;
+        padding: 0 0 0 0;
+        margin-bottom: 0.5vh;
+        overflow: hidden;
+    }
+
+    .mylogo{
+        display: inline-block;
+        max-width: 80vw;
+        max-height: 7.8vh;
+        position: relative;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+    }
+
+    /*.mylogocap{*/
+
+    /*display: inline-block;*/
+    /*!*font-family: "Arial Rounded MT Bold" !important;*!*/
+    /*font-size: 5.1vh;*/
+    /*line-height: 8vh;*/
+    /*cursor: pointer;*/
+    /*padding: 0 0 0 0;*/
+    /*}*/
+
+    #mymenuglyph{
+
+        display: inline-block;
+        font-size: 9vw;
+        line-height: 8.5vh;
+        color: #1c1c1c;
+        cursor: pointer;
+        float: right;
+        padding: 0.6vh 0 0 0;
+    }
+
+    #closenav{
+        display: none;
+        font-size: 9vw;
+        line-height: 8.5vh;
+        color: #1c1c1c;
+        cursor: pointer;
+        float: right;
+        padding: 0.6vh 0 0 0;
+    }
+
+    #mykdr_menu{
+
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(220,220,220, 0.9);
+        margin: 0;
+        padding: 0;
+        left: 0;
+    }
+
+    #mykdr_menu>li {
+        text-align: center;
+        position: relative;
+    }
+    #home>a, #locality>a, #culture>a, #services>a, #trending>a, #events>a, #feedback>a, #about>a, #language>a {
+        position: relative;
+        height: 9vh;
+        line-height: 9vh;
+        font-size: 3vh;
+        /*color: #fafafa;*/
+        text-align: center;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin: 0;
+    }
+
+    #home>a, #locality>a, #culture>a, #services>a, #trending>a, #events>a, #feedback>a, #about>a {
+        display: block;
+        width: 100%;
+        /*border-bottom: solid 1px rgba(08,08,08,0.7);*/
+    }
+
+    #home>a:hover, #locality>a:hover, #culture>a:hover, #services>a:hover, #trending>a:hover, #events>a:hover, #feedback>a:hover, #about>a:hover {
+        background-color: rgba(08,08,08,0.1);
+    }
+
+    #language {
+        border-bottom: 1px #34495E solid;
+    }
+    #english, #malayalam{
+        width: 49.4%;
+        margin: auto !important;
+        font-size: 3.1vh;
+        padding: 0 1.5vh 0 1.5vh;
+        /*display: inline-block !important;*/
+    }
+
+    #alertlang{
+        top: 8vh;
+        width: 100%;
+        height: 9vh;
+        line-height: 6vh;
+        font-size: 2.5vh;
+    }
+    .pagebanner
+    {
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+
+@media (orientation: landscape){
+
+    @media (max-width: 1091px) {
+
+
+        #home>a:hover, #locality>a:hover, #culture>a:hover, #services>a:hover, #trending>a:hover, #events>a:hover, #feedback>a:hover, #about>a:hover {
+            background-color: rgba(08,08,08,0.1);
+        }
+
+        #language{
+            width: 100% !important;
+            border-bottom: 1px #34495E solid;
+            overflow: hidden;
+            margin: auto;
+            /*background-color: #34495E;*/
+        }
+
+
+        #mykdr_nav{
+
+            top: 0;
+            height: 12vh;
+            margin: 0;
+
+        }
+
+
+        #theme-non-nav{
+            margin: 0;
+            padding: 0;
+            display: block;
+        }
+
+        #non-nav{
+            margin-top: 12vh;
+            padding: 0;
+            display: block;
+        }
+
+        .bannerpc {
+
+            width: 100vw;
+            height: 100vh;
+
+        }
+
+        #mykdr_logo {
+
+
+            /*color: #1c1c1c;*/
+            height: 12vh;
+            width: 100%;
+            line-height: 12vh;
+            cursor: pointer;
+            display: block;
+            float: left;
+            position: relative;
+            padding: 0 0 0 0 ;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        .mylogo{
+
+            display: inline-block;
+            width: auto;
+            height: 10.5vh;
+            position: relative;
+            margin: 0 0 0 0;
+            padding: 0;
+        }
+
+        /*.mylogocap{*/
+
+            /*display: inline-block;*/
+            /*font-size: 7.5vh;*/
+            /*cursor: pointer;*/
+            /*line-height: 7.5vh;*/
+            /*padding: 0 0 0 0;*/
+        /*}*/
+
+        #mymenuglyph{
+
+            display: inline-block;
+            font-size: 8.5vh;
+            line-height: 12vh;
+            color: #1c1c1c;
+            cursor: pointer;
+            float: right;
+            padding-top: 0.6vh;
+        }
+
+        #closenav{
+
+            display: none;
+            font-size: 8.5vh;
+            line-height: 12vh;
+            color: #1c1c1c;
+            cursor: pointer;
+            float: right;
+            padding-top: 1.4vh;
+        }
+
+
+        #mykdr_menu{
+
+            display: none;
+            position: fixed;
+            width: 100%;
+            height: 100vh;
+            background-color: rgba(220,220,220, 0.9);
+            padding: 0;
+            left: 0;
+        }
+
+        #mykdr_menu>li {
+            text-align: center;
+            display: inline-block;
+            margin: 0 auto;
+        }
+        #home>a, #locality>a, #culture>a, #services>a, #trending>a, #events>a, #feedback>a, #about>a{
+            display: inline-block;
+            width: 49.5vw;
+            height: 14vh;
+            line-height: 14vh;
+            padding: 0;
+            font-size: 4.5vh;
+            /*border-bottom: solid 1px rgba(08,08,08,0.7);*/
+        }
+        #language {
+            width: 100%;
+            overflow: hidden;
+        }
+        #language>a {
+            display: inline-block;
+            width: 49.5%;
+            height: 14vh;
+            line-height: 14vh;
+            margin: 0 auto;
+            padding: 0;
+            font-size: 5vh;
+        }
+
+
+        #alertlang{
+            top: 75vh;
+            width: 50%;
+            height: 12vh;
+            /*line-height: 6vh;*/
+            font-size: 4vh;
+            right: 0;
+        }
+
+        .pagebanner
+        {
+            width: 100%;
+            height: auto;
+        }
+
+        @media (min-aspect-ratio: 15/10) {
+
+            .bannerpc {
+                height: 100vh !important;
+            }
+        }
+
+    }
+
+
+
+    @media (min-width: 1091px) {
+
+        #mykdr_nav{
+
+            height: 7vh;
+
+        }
+
+        #non-nav{
+            margin-top: 7vh;
+            padding: 0 !important;
+            display: block;
+        }
+
+        #theme-non-nav{
+            margin: 0;
+            padding: 0;
+            display: block;
+        }
+
+        #mykdr_logo {
+
+
+            color: #1c1c1c;
+            height: 7vh;
+            line-height: 7vh;
+            padding: 0;
+            cursor: pointer;
+            margin: 0 0 0 0;
+            display: inline-block;
+            overflow: hidden;
+        }
+
+        .mylogo{
+
+            width: auto;
+            height: 5.5vh;
+            /*line-height: 5.5vh;*/
+            margin: 0 0 0.2vh 0;
+        }
+
+        /*.mylogocap{*/
+
+        /*font-size: 4vh;*/
+        /*!*line-height: 5vh;*!*/
+        /*}*/
+
+
+        #mykdr_menu{
+
+            line-height: 6vh;
+            height: 6vh;
+            display: inline-block;
+            margin: auto;
+            float: right;
+            margin-top: 0.7vh;
+        }
+
+        #mykdr_menu>li{
+
+            font-size: 1vw;
+            display: inline-block;
+            margin-left: 1vw ;
+            line-height: 5vh ;
+            padding: 2px 2px 2px 2px;
+
+        }
+
+        /*#home,#locality,#culture,#services,#trending,#events,#feedback,#about {  }*/
+
+        #language{
+            margin-top: 1vh;
+            margin-bottom: 1.5vh;
+            border-radius: 4px;
+            cursor: pointer;
+            border: 1px #34495E solid;
+            line-height: 4vh !important;
+        }
+        #english, #malayalam {
+            padding: 0 1.5vh 0 1.5vh;
+        }
+
+
+        #bannerdiv{
+
+            height:92vh;
+
+        }
+
+        .bannerpc{
+            width: 100vw;
+            height: 100vh !important;
+
+        }
+
+        #mymenuglyph{
+
+            display: none;
+        }
+
+        #closenav {
+
+            display: none!important;
+        }
+
+        #alertlang{
+            top: 85vh;
+            width: 25vw;
+            height: 10vh;
+            line-height: 6vh;
+            font-size: large;
+            right: 0;
+        }
+
+
+        .pagebanner
+        {
+            width: 100%;
+            height: auto;
+        }
+
+    }
+}
