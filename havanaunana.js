@@ -20,7 +20,7 @@ mykdrApp.config(function($routeProvider) {
 
         // route for the theme page
         .when('/theme', {
-            title : "For the Best Dream Girl In the World - You & Me",
+            title : "For My Pearl - My Best Dream Girl - You & Me",
             description : "",
             templateUrl : 'pages/theme.html',
             controller  : 'mainController'
@@ -110,7 +110,7 @@ mykdrApp.controller('mainController', function($rootScope, $scope) {
 
 
     // inject rootScope variables
-    $rootScope.credentials = "havanaunanaandmybanana";
+    $rootScope.credentials = "havanaunanaqueenofmars";
     $rootScope.valid = false;
 
     $rootScope.closed = function() {
