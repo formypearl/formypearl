@@ -149,6 +149,7 @@ a:hover{
         display: block;
         margin-top: 2vh;
         border-radius: 1vw;
+        margin-bottom: 2vh;
     }
 
     .openletter{
@@ -168,6 +169,7 @@ a:hover{
         display: block;
         margin-top: 2vh;
         border-radius: 1vw;
+        margin-bottom: 2vh;
     }
 
     .lovelistitem {
@@ -301,6 +303,7 @@ a:hover{
             padding: 2vh 5% 2vh 5%;
             border-radius: 2vh;
             font-family: "Segoe UI Semibold";
+            margin-bottom: 2vh;
         }
 
 
