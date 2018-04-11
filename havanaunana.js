@@ -42,6 +42,14 @@ mykdrApp.config(function($routeProvider) {
             controller  : 'mainController'
         })
 
+        // route for the openletter page
+        .when('/openletter', {
+            title :"An Open Letter - Just for You to Understand it all - You & Me",
+            description : "",
+            templateUrl : 'pages/openletter.html',
+            controller  : 'mainController'
+        })
+
 
 });
 
@@ -70,6 +78,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
         menu: {
             cutiepie: "MY CUTIEPIE",
             dream: "MY WILDEST DREAM",
+            openletter: "AN OPEN LETTER",
             angel: "./images/theme/angel.jpg"
         },
         theme: {
@@ -84,7 +93,8 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
         },
         covers: {
             cutiepie: "./images/covers/cutiepie.jpg",
-            dream: "./images/covers/dream.jpg"
+            dream: "./images/covers/dream.jpg",
+            openletter: "./images/covers/openletter.jpg"
         },
 
         pagetop: {
